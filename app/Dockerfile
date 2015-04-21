@@ -13,7 +13,7 @@ WORKDIR /var/www/html
 
 # Laravel
 RUN git clone https://github.com/naotty/laravel-sample-app.git /var/www/html
-RUN git checkout 3fd269b9f3569d202bd61e970cd8586033e33f09
+RUN git checkout f635a0176d428295e7fdbab1c19ad8d25c840170
 
 RUN /usr/local/bin/composer.phar install
 
